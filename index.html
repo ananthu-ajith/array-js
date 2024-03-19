@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <table id="studtable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Department</th>
+          <th>Total Marks</th>
+        </tr>
+      </thead>
+      <tbody id="studetails"></tbody>
+    </table>
+
+    <div>
+      <label for="sortfld">Sort by:</label>
+      <select id="sortfld">
+        <option value="">--Select--</option>
+        <option value="name">Name</option>
+        <option value="age">Age</option>
+        <option value="field">Department</option>
+        <option value="score">Total Marks</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="search">Search:</label>
+      <input type="text" id="search" />
+    </div>
+
+    <div>
+      <label for="minMarks">Minimum Marks:</label>
+      <input type="number" id="minMarks" />
+      <button type="button" id="minimumMarks">Filter</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

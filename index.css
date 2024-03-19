@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#studtable {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#studtable th,
+#studtable td {
+  border: 1px solid rgba(211, 211, 211, 0.678);
+  padding: 8px;
+  text-align: left;
+}
+
+#studtable th {
+  background-color: rgba(243, 240, 240, 0.836);
+}
+
+div {
+  margin: 40px 50px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: 550;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: rgba(25, 63, 231, 0.767);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 47, 255, 0.856);
+}
